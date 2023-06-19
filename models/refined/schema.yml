@@ -1,0 +1,27 @@
+
+version: 2
+
+models:
+  - name: final_table
+    description: "Iceberg table with final results"
+    columns:
+      - name: id
+        description: "Unique ID per Name combination"
+      - name: full_name
+        description: "The full name of the customer"
+      - name: email
+        description: "The email"
+      - name: phone
+        description: "The phone"
+      - name: street_address
+        description: "The street address"
+      - name: city
+        description: "The city"
+      - name: country
+        description: "The country"
+      - name: company_name
+        description: "The company name"
+      - name: department
+        description: "The department"
+      - name: job_title
+        description: "The job title"
