@@ -16,7 +16,8 @@ select
     country,
     company_name,
     department,
-    job_title
+    job_title,
+    money_bank_account
 from 
 "db_landing_poc_htn"."crw_landing_zone"
 limit 100;

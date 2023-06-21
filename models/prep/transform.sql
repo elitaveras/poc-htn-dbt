@@ -16,7 +16,11 @@ from (
         {{ clean_string('country') }} as country,
         {{ clean_string('company_name') }} as company_name,
         {{ clean_string('department') }} as department,
-        {{ clean_string('job_title') }} as job_title
+        {{ clean_string('job_title') }} as job_title,
+        {{ condc('money_bank_account') }} as money_bank_account,
+        {{ dteditck('phone') }} as phone_no_dash,
+        {{ dtnopun('email') }} as formatted_email,
+        {{ dtulcs('job_title')}} as formatted_job_title
     from 
     {{ ref('read_new_data') }}
 )

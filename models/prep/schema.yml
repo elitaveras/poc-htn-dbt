@@ -25,6 +25,8 @@ models:
         description: "The department"
       - name: job_title
         description: "The job title"
+      - name: money_bank_account
+        description: "The amount of money this customer has in their bank account."
   - name: transform
     description: "Cleanup strings and validate emails"
     columns:
@@ -48,3 +50,5 @@ models:
         description: "The department"
       - name: job_title
         description: "The job title"
+      - name: money_bank_account
+        description: "The amount of money this customer has in their bank account."

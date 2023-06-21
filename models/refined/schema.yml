@@ -25,3 +25,11 @@ models:
         description: "The department"
       - name: job_title
         description: "The job title"
+      - name: money_bank_account
+        description: "The amount of money this customer has in their bank account."
+      - name: phone_no_dash
+        description: "the phone number but without dashes."
+      - name: formatted_email
+        description: "the email but without @ or . "
+      - name: formatted_job_title
+        description: "the job title formatted so each word is lowercase and then each first word is capitalized."      
